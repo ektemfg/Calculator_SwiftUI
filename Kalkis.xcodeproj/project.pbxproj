@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4A6A3A28CB40660095F146 /* KalkisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A3928CB40660095F146 /* KalkisApp.swift */; };
+		AE4A6A3C28CB40660095F146 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A3B28CB40660095F146 /* CalculatorView.swift */; };
+		AE4A6A3E28CB40660095F146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4A6A3D28CB40660095F146 /* Assets.xcassets */; };
+		AE4A6A4128CB40660095F146 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4A6A4028CB40660095F146 /* Preview Assets.xcassets */; };
+		AE4A6A4B28CB40670095F146 /* KalkisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A4A28CB40670095F146 /* KalkisTests.swift */; };
+		AE4A6A5528CB40670095F146 /* KalkisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A5428CB40670095F146 /* KalkisUITests.swift */; };
+		AE4A6A5728CB40670095F146 /* KalkisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A5628CB40670095F146 /* KalkisUITestsLaunchTests.swift */; };
+		AE4A6A6428CB441C0095F146 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A6328CB441C0095F146 /* Buttons.swift */; };
+		AE4A6A6728CB44F60095F146 /* Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A6628CB44F60095F146 /* Digits.swift */; };
+		AE4A6A6928CB45010095F146 /* MathOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A6828CB45010095F146 /* MathOperations.swift */; };
+		AE4A6A6C28CB502B0095F146 /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A6A6B28CB502B0095F146 /* CalculatorButtonStyle.swift */; };
+		AEAAE5D728CF211600E9CF0B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAE5D628CF211600E9CF0B /* ViewModel.swift */; };
+		AEAAE5D928CF226B00E9CF0B /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAE5D828CF226B00E9CF0B /* Calculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE4A6A4728CB40670095F146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4A6A2E28CB40660095F146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4A6A3528CB40660095F146;
+			remoteInfo = Kalkis;
+		};
+		AE4A6A5128CB40670095F146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4A6A2E28CB40660095F146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4A6A3528CB40660095F146;
+			remoteInfo = Kalkis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE4A6A3628CB40660095F146 /* Kalkis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalkis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4A6A3928CB40660095F146 /* KalkisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalkisApp.swift; sourceTree = "<group>"; };
+		AE4A6A3B28CB40660095F146 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		AE4A6A3D28CB40660095F146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4A6A4028CB40660095F146 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE4A6A4628CB40670095F146 /* KalkisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalkisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4A6A4A28CB40670095F146 /* KalkisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalkisTests.swift; sourceTree = "<group>"; };
+		AE4A6A5028CB40670095F146 /* KalkisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalkisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4A6A5428CB40670095F146 /* KalkisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalkisUITests.swift; sourceTree = "<group>"; };
+		AE4A6A5628CB40670095F146 /* KalkisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalkisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE4A6A6328CB441C0095F146 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		AE4A6A6628CB44F60095F146 /* Digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digits.swift; sourceTree = "<group>"; };
+		AE4A6A6828CB45010095F146 /* MathOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathOperations.swift; sourceTree = "<group>"; };
+		AE4A6A6B28CB502B0095F146 /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
+		AEAAE5D628CF211600E9CF0B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AEAAE5D828CF226B00E9CF0B /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4A6A3328CB40660095F146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A6A4328CB40670095F146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A6A4D28CB40670095F146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4A6A2D28CB40660095F146 = {
+			isa = PBXGroup;
+			children = (
+				AE4A6A3828CB40660095F146 /* Kalkis */,
+				AE4A6A4928CB40670095F146 /* KalkisTests */,
+				AE4A6A5328CB40670095F146 /* KalkisUITests */,
+				AE4A6A3728CB40660095F146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4A6A3728CB40660095F146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6A3628CB40660095F146 /* Kalkis.app */,
+				AE4A6A4628CB40670095F146 /* KalkisTests.xctest */,
+				AE4A6A5028CB40670095F146 /* KalkisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4A6A3828CB40660095F146 /* Kalkis */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6A6528CB44D10095F146 /* Model */,
+				AEAAE5D628CF211600E9CF0B /* ViewModel.swift */,
+				AE4A6A6A28CB50180095F146 /* Styles */,
+				AE4A6A3928CB40660095F146 /* KalkisApp.swift */,
+				AE4A6A3B28CB40660095F146 /* CalculatorView.swift */,
+				AE4A6A3D28CB40660095F146 /* Assets.xcassets */,
+				AE4A6A3F28CB40660095F146 /* Preview Content */,
+			);
+			path = Kalkis;
+			sourceTree = "<group>";
+		};
+		AE4A6A3F28CB40660095F146 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6A4028CB40660095F146 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE4A6A4928CB40670095F146 /* KalkisTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6A4A28CB40670095F146 /* KalkisTests.swift */,
+			);
+			path = KalkisTests;
+			sourceTree = "<group>";
+		};
+		AE4A6A5328CB40670095F146 /* KalkisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6A5428CB40670095F146 /* KalkisUITests.swift */,
+				AE4A6A5628CB40670095F146 /* KalkisUITestsLaunchTests.swift */,
+			);
+			path = KalkisUITests;
+			sourceTree = "<group>";
+		};
+		AE4A6A6528CB44D10095F146 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6A6328CB441C0095F146 /* Buttons.swift */,
+				AE4A6A6628CB44F60095F146 /* Digits.swift */,
+				AE4A6A6828CB45010095F146 /* MathOperations.swift */,
+				AEAAE5D828CF226B00E9CF0B /* Calculator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE4A6A6A28CB50180095F146 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A6A6B28CB502B0095F146 /* CalculatorButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4A6A3528CB40660095F146 /* Kalkis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4A6A5A28CB40670095F146 /* Build configuration list for PBXNativeTarget "Kalkis" */;
+			buildPhases = (
+				AE4A6A3228CB40660095F146 /* Sources */,
+				AE4A6A3328CB40660095F146 /* Frameworks */,
+				AE4A6A3428CB40660095F146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kalkis;
+			productName = Kalkis;
+			productReference = AE4A6A3628CB40660095F146 /* Kalkis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE4A6A4528CB40670095F146 /* KalkisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4A6A5D28CB40670095F146 /* Build configuration list for PBXNativeTarget "KalkisTests" */;
+			buildPhases = (
+				AE4A6A4228CB40670095F146 /* Sources */,
+				AE4A6A4328CB40670095F146 /* Frameworks */,
+				AE4A6A4428CB40670095F146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4A6A4828CB40670095F146 /* PBXTargetDependency */,
+			);
+			name = KalkisTests;
+			productName = KalkisTests;
+			productReference = AE4A6A4628CB40670095F146 /* KalkisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE4A6A4F28CB40670095F146 /* KalkisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4A6A6028CB40670095F146 /* Build configuration list for PBXNativeTarget "KalkisUITests" */;
+			buildPhases = (
+				AE4A6A4C28CB40670095F146 /* Sources */,
+				AE4A6A4D28CB40670095F146 /* Frameworks */,
+				AE4A6A4E28CB40670095F146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4A6A5228CB40670095F146 /* PBXTargetDependency */,
+			);
+			name = KalkisUITests;
+			productName = KalkisUITests;
+			productReference = AE4A6A5028CB40670095F146 /* KalkisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4A6A2E28CB40660095F146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AE4A6A3528CB40660095F146 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AE4A6A4528CB40670095F146 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AE4A6A3528CB40660095F146;
+					};
+					AE4A6A4F28CB40670095F146 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AE4A6A3528CB40660095F146;
+					};
+				};
+			};
+			buildConfigurationList = AE4A6A3128CB40660095F146 /* Build configuration list for PBXProject "Kalkis" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4A6A2D28CB40660095F146;
+			productRefGroup = AE4A6A3728CB40660095F146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4A6A3528CB40660095F146 /* Kalkis */,
+				AE4A6A4528CB40670095F146 /* KalkisTests */,
+				AE4A6A4F28CB40670095F146 /* KalkisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4A6A3428CB40660095F146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4A6A4128CB40660095F146 /* Preview Assets.xcassets in Resources */,
+				AE4A6A3E28CB40660095F146 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A6A4428CB40670095F146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A6A4E28CB40670095F146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4A6A3228CB40660095F146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4A6A6428CB441C0095F146 /* Buttons.swift in Sources */,
+				AE4A6A3C28CB40660095F146 /* CalculatorView.swift in Sources */,
+				AE4A6A6928CB45010095F146 /* MathOperations.swift in Sources */,
+				AE4A6A6C28CB502B0095F146 /* CalculatorButtonStyle.swift in Sources */,
+				AE4A6A3A28CB40660095F146 /* KalkisApp.swift in Sources */,
+				AEAAE5D928CF226B00E9CF0B /* Calculator.swift in Sources */,
+				AE4A6A6728CB44F60095F146 /* Digits.swift in Sources */,
+				AEAAE5D728CF211600E9CF0B /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A6A4228CB40670095F146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4A6A4B28CB40670095F146 /* KalkisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A6A4C28CB40670095F146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4A6A5528CB40670095F146 /* KalkisUITests.swift in Sources */,
+				AE4A6A5728CB40670095F146 /* KalkisUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE4A6A4828CB40670095F146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4A6A3528CB40660095F146 /* Kalkis */;
+			targetProxy = AE4A6A4728CB40670095F146 /* PBXContainerItemProxy */;
+		};
+		AE4A6A5228CB40670095F146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4A6A3528CB40660095F146 /* Kalkis */;
+			targetProxy = AE4A6A5128CB40670095F146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE4A6A5828CB40670095F146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE4A6A5928CB40670095F146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4A6A5B28CB40670095F146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kalkis/Preview Content\"";
+				DEVELOPMENT_TEAM = 78T986F33T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dicky.Kalkis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE4A6A5C28CB40670095F146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kalkis/Preview Content\"";
+				DEVELOPMENT_TEAM = 78T986F33T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dicky.Kalkis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE4A6A5E28CB40670095F146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dicky.KalkisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalkis.app/Kalkis";
+			};
+			name = Debug;
+		};
+		AE4A6A5F28CB40670095F146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dicky.KalkisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalkis.app/Kalkis";
+			};
+			name = Release;
+		};
+		AE4A6A6128CB40670095F146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dicky.KalkisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kalkis;
+			};
+			name = Debug;
+		};
+		AE4A6A6228CB40670095F146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dicky.KalkisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kalkis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4A6A3128CB40660095F146 /* Build configuration list for PBXProject "Kalkis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A6A5828CB40670095F146 /* Debug */,
+				AE4A6A5928CB40670095F146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4A6A5A28CB40670095F146 /* Build configuration list for PBXNativeTarget "Kalkis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A6A5B28CB40670095F146 /* Debug */,
+				AE4A6A5C28CB40670095F146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4A6A5D28CB40670095F146 /* Build configuration list for PBXNativeTarget "KalkisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A6A5E28CB40670095F146 /* Debug */,
+				AE4A6A5F28CB40670095F146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4A6A6028CB40670095F146 /* Build configuration list for PBXNativeTarget "KalkisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A6A6128CB40670095F146 /* Debug */,
+				AE4A6A6228CB40670095F146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4A6A2E28CB40660095F146 /* Project object */;
+}
