@@ -20,6 +20,7 @@ struct CalculatorView: View {
          [.digit(.zero), .coma,.equals]]
     }
     
+    
     var body: some View {
         VStack{
             Spacer()

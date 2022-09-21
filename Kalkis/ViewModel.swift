@@ -10,13 +10,15 @@ import Combine
 
 extension CalculatorView {
     
-    class ViewModel: ObservableObject {
+   final class ViewModel: ObservableObject {
         
         @Published var calculator = CalculatorOperations()
         
         var displayedText: String {
             return calculator.displayedText
             }
+        
+        
         
        var buttonTypes: [[ButtonType]] {
            [[.allClear, .negative, .percent, .operation(.divide)],
