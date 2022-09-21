@@ -77,14 +77,13 @@ struct CalculatorOperations {
     }
     
     mutating func equalz() {
-        guard let number = newNumber, let expressionToEvaluate = expression else { return }
-        result = expressionToEvaluate.equalz(with: number)
         expression = nil
                 newNumber = nil
     }
     
-    func clearAll() {
-        
+    mutating func clearAll() {
+        expression = nil
+        newNumber = nil
     }
     
     func clear() {
